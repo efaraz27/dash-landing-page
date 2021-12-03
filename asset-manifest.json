@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/dash-landing-page/static/css/main.47473df7.chunk.css",
+    "main.js": "/dash-landing-page/static/js/main.064591f3.chunk.js",
+    "main.js.map": "/dash-landing-page/static/js/main.064591f3.chunk.js.map",
+    "runtime-main.js": "/dash-landing-page/static/js/runtime-main.ebc128df.js",
+    "runtime-main.js.map": "/dash-landing-page/static/js/runtime-main.ebc128df.js.map",
+    "static/js/2.fe0213d0.chunk.js": "/dash-landing-page/static/js/2.fe0213d0.chunk.js",
+    "static/js/2.fe0213d0.chunk.js.map": "/dash-landing-page/static/js/2.fe0213d0.chunk.js.map",
+    "static/js/3.2afb676f.chunk.js": "/dash-landing-page/static/js/3.2afb676f.chunk.js",
+    "static/js/3.2afb676f.chunk.js.map": "/dash-landing-page/static/js/3.2afb676f.chunk.js.map",
+    "index.html": "/dash-landing-page/index.html",
+    "static/css/main.47473df7.chunk.css.map": "/dash-landing-page/static/css/main.47473df7.chunk.css.map",
+    "static/js/2.fe0213d0.chunk.js.LICENSE.txt": "/dash-landing-page/static/js/2.fe0213d0.chunk.js.LICENSE.txt",
+    "static/media/add-button.9c950782.svg": "/dash-landing-page/static/media/add-button.9c950782.svg",
+    "static/media/arrow.c4a9032e.svg": "/dash-landing-page/static/media/arrow.c4a9032e.svg",
+    "static/media/arrows.aa5af3e1.svg": "/dash-landing-page/static/media/arrows.aa5af3e1.svg",
+    "static/media/belgium-flag.242fffd2.svg": "/dash-landing-page/static/media/belgium-flag.242fffd2.svg",
+    "static/media/chat-icon.2e370962.svg": "/dash-landing-page/static/media/chat-icon.2e370962.svg",
+    "static/media/dashboard-icon.a0af18ba.svg": "/dash-landing-page/static/media/dashboard-icon.a0af18ba.svg",
+    "static/media/france-flag.a1dd97a6.svg": "/dash-landing-page/static/media/france-flag.a1dd97a6.svg",
+    "static/media/germany-flag.d582c3f7.svg": "/dash-landing-page/static/media/germany-flag.d582c3f7.svg",
+    "static/media/logo.fd15adc1.svg": "/dash-landing-page/static/media/logo.fd15adc1.svg",
+    "static/media/meter.1c56e0cf.svg": "/dash-landing-page/static/media/meter.1c56e0cf.svg",
+    "static/media/overview-icon.abae1db1.svg": "/dash-landing-page/static/media/overview-icon.abae1db1.svg",
+    "static/media/plus.be25afda.svg": "/dash-landing-page/static/media/plus.be25afda.svg",
+    "static/media/reports-icon.3bccbd7a.svg": "/dash-landing-page/static/media/reports-icon.3bccbd7a.svg",
+    "static/media/settings-icon.f18dae15.svg": "/dash-landing-page/static/media/settings-icon.f18dae15.svg",
+    "static/media/tasks-icon.7c9dade3.svg": "/dash-landing-page/static/media/tasks-icon.7c9dade3.svg",
+    "static/media/team-icon.86dd104e.svg": "/dash-landing-page/static/media/team-icon.86dd104e.svg",
+    "static/media/trending-down.d0db0f89.svg": "/dash-landing-page/static/media/trending-down.d0db0f89.svg",
+    "static/media/trending-up.0c402578.svg": "/dash-landing-page/static/media/trending-up.0c402578.svg",
+    "static/media/usa-flag.d6381a6f.svg": "/dash-landing-page/static/media/usa-flag.d6381a6f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebc128df.js",
+    "static/js/2.fe0213d0.chunk.js",
+    "static/css/main.47473df7.chunk.css",
+    "static/js/main.064591f3.chunk.js"
+  ]
+}
