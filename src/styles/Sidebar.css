@@ -1,0 +1,259 @@
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.Sidebar {
+  /* width: 248px; */
+  height: 100vh;
+  background-color: #3c38ce;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  min-width: 12vw;
+  z-index: 10;
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+.sidebar-contents {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.logo {
+  margin: 22px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divider {
+  width: 200px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 24px;
+}
+
+.team-card {
+  background-color: #4a4de6;
+  width: 160px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.avatar {
+  background-color: #ecd348;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.team-name {
+  color: white;
+  font-size: 14px;
+}
+
+.team-type {
+  color: white;
+  opacity: 42%;
+  font-size: 12px;
+}
+
+.nav-elements {
+  margin-top: 10px;
+  margin-left: 24px;
+}
+
+.nav-element {
+  margin-top: 24px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-element:active {
+  transform: scale(105%);
+}
+
+.nav-element img {
+  padding-right: 14px;
+  transform: translateY(3px);
+}
+
+.nav-text {
+  opacity: 70%;
+}
+
+.nav-text:hover {
+  opacity: 100%;
+}
+
+.chat {
+  position: relative;
+  opacity: 100%;
+}
+
+.chat-counter {
+  position: absolute;
+  right: 24px;
+  top: 25%;
+  background-color: #ffa000;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  opacity: 100%;
+  font-size: 12px;
+}
+
+.shortcut {
+  text-transform: uppercase;
+  margin-top: 34px;
+  font-size: 12px;
+  margin-left: 24px;
+  color: white;
+  opacity: 42%;
+  letter-spacing: 0.3px;
+  line-height: 16.8px;
+  margin-bottom: -20px;
+}
+
+.reports {
+  transform: translateX(-4px);
+}
+
+.storage-plan-card {
+  background-color: #342bc2;
+  width: 198px;
+  height: 96px;
+  border-radius: 8px;
+  color: white;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-top: auto;
+}
+
+.storage-heading {
+  margin-top: 20px;
+
+  margin-left: 20px;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+}
+
+.gigabytes-used {
+  margin-top: 4px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.out-of {
+  opacity: 70%;
+}
+
+.storage-bar {
+  margin-left: 20px;
+  margin-top: 12px;
+  width: 158px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.storage-bar-fill {
+  background-color: white;
+  height: 100%;
+}
+
+.profile {
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-name {
+  margin-left: 12px;
+  font-size: 16px;
+  color: white;
+}
+
+.profile-arrows {
+  margin-left: auto;
+  margin-right: 37px;
+  width: 9.18px;
+  height: 18px;
+}
+
+.bottom-stuff {
+  margin-top: auto;
+}
+
+.menu-btn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-btn {
+    display: block;
+  }
+}
+
+@media only screen and (max-height: 785px) {
+  .menu-btn {
+    display: block;
+  }
+  .nav-element {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-height: 730px) {
+  .nav-element {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .logo {
+    margin: 11px 24px;
+  }
+  .storage-plan-card {
+    display: none;
+  }
+
+  .bottom {
+    margin-top: auto;
+  }
+}

@@ -1,0 +1,35 @@
+.top-countries-card{
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sub-title{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.countries{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.country-divider{
+    height: 1px;
+    width: 293px;
+    background-color: #E6E7E9;
+    margin-left: auto;
+}
+
+.main-divider{
+    height: 1px;
+    width: 350px;
+    background-color: #E6E7E9;
+    margin-bottom: 18px;
+}

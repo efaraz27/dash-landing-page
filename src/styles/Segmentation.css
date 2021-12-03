@@ -1,0 +1,73 @@
+.segmentation-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.segmentation-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.not-specified .bullet {
+  background-color: #919294;
+}
+
+.male .bullet {
+  background-color: #caccf7;
+}
+.female .bullet {
+  background-color: #828aed;
+}
+.others .bullet {
+  background-color: #4a4de6;
+}
+
+.segment-text {
+  font-size: 12px;
+  font-weight: 500;
+}
+.not-specified .segment-text {
+  color: #919294;
+}
+
+.male .segment-text {
+  color: #caccf7;
+}
+.female .segment-text {
+  color: #828aed;
+}
+.others .segment-text {
+  color: #4a4de6;
+}
+
+.not-specified,
+.male,
+.female,
+.others {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.segmentation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 34px;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+.main-divider{
+  margin-top: auto;
+}

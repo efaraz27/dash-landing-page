@@ -1,0 +1,14 @@
+.satisfaction-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.satisfaction-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}

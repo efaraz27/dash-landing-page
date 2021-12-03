@@ -1,0 +1,54 @@
+.add-component-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.add-component-text {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 90%;
+  max-width: 189px;
+  letter-spacing: -0.4px;
+}
+
+.add-component-desc {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 42%;
+  letter-spacing: -0.5px;
+  max-width: 173px;
+  text-align: center;
+}
+
+.add-btn-big {
+  background-color: #4a4de6;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 37.5px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 68px;
+}
+
+.add-btn-big img {
+  margin-right: 9px;
+}
+
+.add-btn-big:active {
+  transform: scale(110%);
+}
+
+.add-btn {
+  margin-top: 68px;
+}
